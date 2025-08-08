@@ -82,13 +82,13 @@
  }
  
 #Lowell-Icon {
-  width: 220px;
-  height: 220px;
-   border-radius: 50%;
-   object-fit: cover;
-   border: 3px solid var(--color-navy);
-   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
- }
+  width: clamp(240px, 22vw, 300px);
+  height: clamp(240px, 22vw, 300px);
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-navy);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
  
  #hero-section p {
    margin: 0;
@@ -121,6 +121,7 @@
 .projects-heading {
   font-family: 'Copperplate Gothic', 'Copperplate', 'Times New Roman', serif;
   text-transform: uppercase;
+  font-weight: bold;
   letter-spacing: 2px;
   color: var(--color-navy);
 }
@@ -129,6 +130,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  font-weight: 800;
 }
 
 .color-section {
